@@ -19,17 +19,17 @@ Before running the tests, ensure you have the following installed:
 
    Clone the repository to your local system:
 
-   git clone "repo url"
+   *git clone "repo url"*
 
    Replace "repo url" with the actual repository link.
 
-   git clone https://github.com/YourUsername/TradeNation-QA-Assessment.git
+   *git clone https://github.com/YourUsername/TradeNation-QA-Assessment.git*
 
 2. **Navigate into the Project Folder**:
 
    Navigate into the Project Folder: Use the cd command to move into the folder where the project was cloned:
 
-   cd TradeNation-QA-Assessment
+   *cd TradeNation-QA-Assessment*
 
    The cd command changes the current working directory to the TradeNation-QA-Assessment folder.
 
@@ -37,7 +37,7 @@ Before running the tests, ensure you have the following installed:
 
 3. **Confirm You’re in the Correct Directory: To ensure you’re in the correct folder, type:**
 
-   pwd
+   *pwd*
 
    This will print the current directory path. For example:
 
@@ -45,7 +45,7 @@ Before running the tests, ensure you have the following installed:
 
 4. **Install Dependencies: Install all required dependencies using npm:**
 
-   npm install
+   *npm install*
 
    This command will install Cypress and any other required packages listed in the package.json file.
 
@@ -55,7 +55,7 @@ Before running the tests, ensure you have the following installed:
 
    However, if you encounter issues, you can install it manually:
 
-   npm install cypress --save-dev
+   *npm install cypress --save-dev*
 
 ## Running the Tests
 
@@ -65,7 +65,7 @@ You can run the tests in Headless Mode (no UI) or with the Cypress Test Runner (
 
    Run the following command:
 
-   npx cypress run
+   *npx cypress run*
 
    This will execute all test cases in a headless browser (no UI).
 
@@ -74,7 +74,8 @@ You can run the tests in Headless Mode (no UI) or with the Cypress Test Runner (
 2. **Open Cypress Test Runner**
 
    Run the following command:
-   npx cypress open
+   
+   *npx cypress open*
 
    This will open the interactive Cypress Test Runner.
 
